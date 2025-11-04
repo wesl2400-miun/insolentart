@@ -1,0 +1,43 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.gallery img {
+  height: 350px;
+  box-shadow: 4px 4px 4px 4px black;
+}
+
+@media screen and (max-width: 1330px) {
+  .gallery img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .gallery img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gallery img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .gallery img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .gallery img {
+    height: 100px;
+  }
+}
+
