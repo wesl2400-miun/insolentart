@@ -1,3 +1,5 @@
+/* Sätt stilen på bilderna under Startsidan */
+
 .overview {
   display: flex;
   justify-content: center;
@@ -10,6 +12,8 @@
   height: 200px;
   box-shadow: 4px 4px 4px 4px black;
 }
+
+/** Gör bilderna under Startsidan mindre på mindre skärmar **/
 
 @media screen and (max-width: 1120px) {
   .overview img {

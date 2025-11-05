@@ -1,3 +1,4 @@
+/** Stilen för sidfoten - är responsiv och alltid synlig**/
 .footer {
   width: 100vw;
   position: fixed;

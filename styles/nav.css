@@ -1,3 +1,5 @@
+/* Sätter stil på navigeringsmenyn - gör den responsiv och alltid synlig */
+
 .nav {
   left: 0;
   right: 0;
@@ -10,6 +12,8 @@
   font-size: 1.5rem;
 }
 
+/* Avser ruttlistan i navigeringsmenyn */
+
 .nav ul {
   width: 100vw;
   display: flex;
@@ -18,6 +22,8 @@
   background-color: var(--deep-dark);
   box-shadow: 2px 2px 2px black;
 }
+
+/* Ändra stilen för länkar beroende på deras aktuella tillstånd */
 
 .nav ul a, a:link {
   display: block;
@@ -37,6 +43,8 @@
 .nav ul a:active {
   color: pink;
 }
+
+/** Gör teckenstorleken mindre på mindre skärmar - avser mobiler **/
 
 @media screen and (max-width: 500px) {
   .nav {
